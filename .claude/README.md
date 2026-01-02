@@ -1,34 +1,39 @@
-# Claude Code Configuration
+# Claude Code Plugin Marketplace
 
-This directory contains Claude Code configuration files.
+このリポジトリは、Claude Code用のプラグインマーケットプレイスです。
 
-## Contents
+## プラグインマーケットプレイスの使用
 
-### commands/
-Custom slash commands for Claude Code. Add markdown files here to create new commands.
+### マーケットプレイスの追加
 
-Example: `.claude/commands/test.md` creates a `/test` command.
+```bash
+/plugin marketplace add ariela/claude-plugins
+```
 
-### hooks/
-Scripts that run during Claude Code sessions:
+### プラグインのインストール
 
-- `session-start.sh` - Runs when a session starts
-- `tool-call.sh` - Runs when tools are called
-- `user-prompt-submit.sh` - Runs when user submits a prompt
+```bash
+/plugin install product-requirements-analyst@ariela-plugins
+```
 
-### rules/
-Project rules, guidelines, and accumulated knowledge for Claude Code:
+## 含まれるプラグイン
 
-- `README.md` - Overview of the rules system
-- `document-update-workflow.md` - Workflow for updating documentation
-- `coding-standards.md` - Coding standards and best practices
-- `troubleshooting.md` - Known issues and solutions
-- `patterns.md` - Implementation patterns and design decisions
-- `project-memory.md` - Project-specific knowledge and context
+- **product-requirements-analyst** - 製品要件分析と技術的実現可能性の検証を行うエージェントプラグイン
 
-**Important:** Claude Code should read these files at the start of each session to understand project conventions and accumulated knowledge.
+## ディレクトリ構成
 
-## Documentation
+```
+.claude/
+├── commands/           # スラッシュコマンドのサンプル
+├── hooks/             # セッションフックのサンプル
+└── rules/             # プラグイン開発ルール
+    ├── README.md      # ルールシステムの概要
+    └── output-language.md  # 出力言語ルール
+```
 
-For more information about Claude Code configuration, visit:
-https://github.com/anthropics/claude-code
+## プラグイン開発
+
+新しいプラグインを追加する場合は、`plugins/` ディレクトリに配置してください。
+
+詳細については、Claude Codeの公式ドキュメントを参照してください:
+https://code.claude.com/docs/en/plugins.md

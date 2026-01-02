@@ -1,0 +1,24 @@
+{
+  "name": "ariela-plugins",
+  "owner": {
+    "name": "Takeshi Kawamoto",
+    "email": "yuki@transrain.net"
+  },
+  "metadata": {
+    "description": "Claude Code用の実用的なプラグイン集",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "product-requirements-analyst",
+      "source": "product-requirements-analyst",
+      "description": "製品要件分析と技術的実現可能性の検証を行うエージェントプラグイン",
+      "version": "1.0.0",
+      "author": {
+        "name": "Takeshi Kawamoto"
+      },
+      "homepage": "https://github.com/ariela/claude-plugins/tree/main/plugins/product-requirements-analyst"
+    }
+  ]
+}

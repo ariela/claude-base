@@ -1,0 +1,13 @@
+{
+  "name": "product-requirements-analyst",
+  "version": "1.0.0",
+  "description": "製品要件分析と技術的実現可能性の検証を行うエージェントプラグイン",
+  "author": {
+    "name": "Takeshi Kawamoto",
+    "email": "yuki@transrain.net"
+  },
+  "homepage": "https://github.com/ariela/claude-plugins",
+  "repository": "https://github.com/ariela/claude-plugins",
+  "license": "MIT",
+  "keywords": ["requirements", "analysis", "product", "feasibility"]
+}
