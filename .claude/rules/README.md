@@ -7,6 +7,7 @@
 ```
 .claude/rules/
 ├── README.md                      # このファイル - 全体概要
+├── output-language.md             # 出力言語ルール
 ├── document-update-workflow.md    # ドキュメント更新のワークフロー
 ├── coding-standards.md            # コーディング規約とベストプラクティス
 ├── troubleshooting.md             # トラブルシューティングガイド
@@ -20,11 +21,12 @@
 
 作業を開始する前に、必ず以下のファイルを確認してください：
 
-1. **document-update-workflow.md** - ドキュメント更新の手順とルール
-2. **coding-standards.md** - コーディング規約
-3. **troubleshooting.md** - 既知の問題と解決策
-4. **patterns.md** - 推奨される実装パターン
-5. **project-memory.md** - プロジェクト固有の重要な情報
+1. **output-language.md** - 出力言語ルール（最優先）
+2. **document-update-workflow.md** - ドキュメント更新の手順とルール
+3. **coding-standards.md** - コーディング規約
+4. **troubleshooting.md** - 既知の問題と解決策
+5. **patterns.md** - 推奨される実装パターン
+6. **project-memory.md** - プロジェクト固有の重要な情報
 
 ## 📝 ドキュメント更新の原則
 
