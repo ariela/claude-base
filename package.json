@@ -1,0 +1,19 @@
+{
+  "name": "claude-base",
+  "version": "1.0.0",
+  "description": "A Claude Code project with standard directory structure",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test command specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "claude-code",
+    "ai",
+    "development"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
